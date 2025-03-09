@@ -1,36 +1,62 @@
-# Flask Traffic Light 🚦  
+# 🚦 Traffic Light Flasks
 
-## Description  
-This project simulates a traffic light using a Flask backend and a separate frontend built with HTML, CSS, and JavaScript.  
-- The backend controls the color transitions with predefined timing.  
-- The frontend updates the UI dynamically using JavaScript.  
-- A "Timer" button shows the remaining time for red and green lights.  
-
-
-## Installation  
-1. **Clone the repository:**  
-   ```sh
-   git clone https://github.com/YOUR_USERNAME/flask-traffic-light.git
-   cd flask-traffic-light
-   ```
-
-2. **Set up the backend:**  
-   ```sh
-   cd backend
-   python -m venv venv  
-   source venv/bin/activate  # Windows: venv\Scripts\activate  
-   pip install -r requirements.txt  
-   python app.py
-   ```
+A web application that simulates a traffic light using **Flask (Python)** for backend control and **HTML, CSS, and JavaScript** for the frontend UI.  
 
 ---
 
-## Usage  
-- Open `frontend/templates/index.html` in a browser.  
-- The traffic light will change colors automatically.  
-- Click the **"Timer"** button to display the countdown.  
+## 🔥 Features  
+✔ **Traffic Light Simulation** (Red, Yellow, Green cycle)  
+✔ **Dynamic UI Updates** via JavaScript  
+✔ **Flask Backend** controlling the light sequence  
+✔ **Timer Button** displaying countdown for red/green lights  
 
 ---
 
-## Author  
-[Your GitHub Profile]  
+## 🛠 Technologies  
+- **Flask** (Python Backend)  
+- **HTML, CSS, JavaScript** (Frontend)  
+- **Fetch API** (to get light status from Flask)  
+
+---
+
+## ⚡ Installation & Setup  
+
+1️⃣ **Clone the repository**  
+```bash
+git clone https://github.com/YOUR_USERNAME/traffic-light-flask.git
+cd traffic-light-flask
+```
+
+2️⃣ **Set up the backend**  
+- **Windows (PowerShell)**  
+  ```powershell
+  cd backend
+  python -m venv venv
+  venv\Scripts\Activate
+  pip install -r requirements.txt
+  ```
+- **Linux/macOS (WSL)**  
+  ```bash
+  cd backend
+  python -m venv venv
+  source venv/bin/activate
+  pip install -r requirements.txt
+  ```
+
+3️⃣ **Run the application**  
+```bash
+python app.py
+```
+
+The server should now be running at **`http://127.0.0.1:5000/`** 🚀  
+
+---
+
+## 🕹 Usage  
+- **The traffic light changes colors automatically.**  
+- **Click the "Timer" button** to display the countdown for red and green lights.
+
+---
+
+## 📜 License  
+This project is open-source and available under the **MIT License**.  
